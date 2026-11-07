@@ -1,0 +1,25 @@
+# SmartPDF CPU-Optimized Requirements
+# Designed for Windows 11, Intel Core i5 13th Gen, 8 GB RAM (CPU-Only Execution)
+
+# Core Web Application Framework
+streamlit>=1.35.0
+
+# Document Processing & OCR
+pymupdf>=1.24.0
+pytesseract>=0.3.10
+
+# AI & NLP (CPU-compatible)
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+scikit-learn>=1.4.0
+numpy>=1.26.0,<2.3.0
+
+# Visualization & Charts
+plotly>=5.22.0
+
+# System, Environment & Utilities
+python-dotenv>=1.0.1
+psutil>=5.9.8
+requests>=2.31.0
+tqdm>=4.66.0
+
